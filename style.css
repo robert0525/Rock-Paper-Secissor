@@ -43,6 +43,12 @@ header > h1 {
 
 #user-lable {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 33px;
+    left: -25px;
+}
+
+#computer-lable {
+    position: absolute;
+    top: 33px;
+    left: 175px;
 }
