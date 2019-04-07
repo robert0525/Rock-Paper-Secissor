@@ -73,8 +73,14 @@ header > h1 {
 .choice {
     border: solid 4px white;
     border-radius: 50%;
-    padding: 20px;
+    padding: 10px;
     display: inline-block;
     margin: 15px;
     
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: #15ADF9;
+
 }
