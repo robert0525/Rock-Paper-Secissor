@@ -73,9 +73,10 @@ header > h1 {
 .choice {
     border: solid 4px white;
     border-radius: 50%;
+    margin: 0 20px;
     padding: 10px;
     display: inline-block;
-    margin: 15px;
+    transition: all 1s ease;
     
 }
 
@@ -83,4 +84,12 @@ header > h1 {
     cursor: pointer;
     background: #15ADF9;
 
+}
+
+#action-move {
+    text-align: center;
+    color: white;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
 }
