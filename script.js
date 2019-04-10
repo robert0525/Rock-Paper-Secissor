@@ -9,5 +9,13 @@ const paper_div = document.getElementById("p");
 const scissor_div = document.getElementById("s");
 
 rock_div.addEventListener('click' , function(){
-    console.log("hey testing console log for javascript");
+    console.log("hey you just click ROCK");
+})
+
+paper_div.addEventListener('click' , function(){
+    console.log("hey you just click PAPER");
+})
+
+scissor_div.addEventListener('click' , function(){
+    console.log("hey you just click SCISSOR");
 })
