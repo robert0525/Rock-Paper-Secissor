@@ -8,14 +8,30 @@ const rock_div = document.getElementById("r");
 const paper_div = document.getElementById("p");
 const scissor_div = document.getElementById("s");
 
-rock_div.addEventListener('click' , function(){
-    console.log("hey you just click ROCK");
-})
+function getComputerChoice()    {
+    const choice = ['r', 'p', 's'];
+    console.log(Math.random());
+}
 
-paper_div.addEventListener('click' , function(){
-    console.log("hey you just click PAPER");
-})
 
-scissor_div.addEventListener('click' , function(){
-    console.log("hey you just click SCISSOR");
-})
+function game(userChoice)   {
+    console.log( userChoice);
+}
+
+
+function main() { 
+    rock_div.addEventListener('click' , function(){
+    game("r");
+    })
+
+    paper_div.addEventListener('click' , function(){
+        game("p");
+    })
+
+    scissor_div.addEventListener('click' , function(){
+        game("s");
+    })
+
+}
+
+main();
