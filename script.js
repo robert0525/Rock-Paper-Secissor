@@ -20,8 +20,8 @@ function game(userChoice)   {
     const computerChoice = getComputerChoice();
     console.log(computerChoice);
 }
-
-game|("c");
+ 
+game("c");
 
 function main() { 
     rock_div.addEventListener('click' , function(){
