@@ -9,16 +9,19 @@ const paper_div = document.getElementById("p");
 const scissor_div = document.getElementById("s"); 
 
 function getComputerChoice()    {
-    const choice = ['r', 'p', 's'];
-    console.log(Math.floor(Math.random() * 3));
+    const choices = ['r', 'p', 's'];
+    const randomNumber = Math.floor(Math.random() * 3);
+    return choices[randomNumber];
 }
-getComputerChoice();
+
 
 
 function game(userChoice)   {
-    console.log( userChoice);
+    const computerChoice = getComputerChoice();
+    console.log(computerChoice);
 }
 
+game|("c");
 
 function main() { 
     rock_div.addEventListener('click' , function(){
