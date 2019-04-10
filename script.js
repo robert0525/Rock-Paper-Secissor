@@ -6,12 +6,13 @@ const scoreBoard_div = document.querySelector(".score-board");
 const result_div = document.querySelector(".result");
 const rock_div = document.getElementById("r");
 const paper_div = document.getElementById("p");
-const scissor_div = document.getElementById("s");
+const scissor_div = document.getElementById("s"); 
 
 function getComputerChoice()    {
     const choice = ['r', 'p', 's'];
-    console.log(Math.random());
+    console.log(Math.random() *3);
 }
+getComputerChoice();
 
 
 function game(userChoice)   {
